@@ -16,10 +16,10 @@ int numLength(int num)
 	}
 
 	while (num)
-	(
+	{
 		num = num / 10;
 		length += 1;
-	)
+	}
 	return (length);
 }
 /**
@@ -54,10 +54,8 @@ int main(void)
 		if (i != 98)
 			printf(", ");
 		else
-			print("\n")
+			printf("\n");
 		i++;
 	}
 	return (0);
 }
-
-
